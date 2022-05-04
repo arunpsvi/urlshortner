@@ -1,0 +1,30 @@
+@page {
+	margin-top: 2.5cm;
+	margin-bottom: 2.5cm;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	footer: html_letterfooter2;
+	background-color: pink;
+}
+
+@page :first {
+	margin-top: 8cm;
+	margin-bottom: 4cm;
+	header: html_letterheader;
+	footer: _blank;
+	resetpagenum: 1;
+	background-color: yellow;
+}
+
+@page letterhead :first {
+	margin-top: 8cm;
+	margin-bottom: 4cm;
+	header: html_letterheader;
+	footer: _blank;
+	resetpagenum: 1;
+	background-color: lightblue;
+}
+.letter {
+	page-break-before: always;
+	page: letterhead;
+}

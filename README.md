@@ -1,4 +1,5 @@
 # urlshortner
+Project has been developed on Codeigniter Framework.
 1:- Create database witn name 'urlshortner'
 2:- Import sql file urlshortner.sql
 3:- Host the all the files to server
